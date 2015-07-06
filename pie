@@ -1,0 +1,15 @@
+#include "stdafx.h"
+
+int main(){
+	int n = 0;
+	float pie = 1.0;
+
+	for(n = 1; n<= 50; n++){
+		pie = pie* (2*n)*(2*n) / ((2*n-1)*(2*n+1));
+	}
+
+	printf("%f",2*pie);
+
+	return 0;
+}
+
